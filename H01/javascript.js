@@ -10,3 +10,5 @@ var mijnauto ={
     aantalWielen: 4,
     kleur: "blauw"
 }
+
+console.log(mijnauto.kleur);
