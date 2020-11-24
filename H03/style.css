@@ -1,11 +1,9 @@
-html{
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
-}
 
 body{
-    text-align: center;
+    justify-content: center;
     font-family: 'Copse', serif;
+    width: 1000px;
+    margin: auto;
 }
 
 img{
@@ -17,7 +15,12 @@ img{
 #pics{
     width: 900px;
     height: 900px;
-    border: solid 1px black;
+    border: solid 2px black;
     font-size: 0px;
     margin: auto;
 }
+
+h1{
+    text-align: center;
+}
+
