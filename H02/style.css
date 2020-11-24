@@ -1,0 +1,12 @@
+
+#wrapper{
+    margin: auto;
+}
+
+
+div #blok1, #blok2, #blok3, #blok4{
+    box-sizing: border-box;
+    height: 100px;
+    width: 100px;
+    float: left;
+}
