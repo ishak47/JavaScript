@@ -30,6 +30,13 @@ function createClubImages(){
 
 function maakFavoriet(id){
     console.log("maak mij favo het gaat om logo " + id );
+    notsofavoriet = document.getElementsByClassName("favoriet");
+
+    for (var i = 0; i < notsofavoriet.length; i++){
+        notsofavoriet[i].style.backgroundImage ="none";
+    }
+
     favoriet = document.getElementById("favoriet" + id);
-    favoriet.style.backgroundImage = "url ('img/heart.png')";
+    favoriet.style.backgroundImage = "url('img/heart.jpg')";
+    console.log(favoriet.style.backgroundImage);
 }
