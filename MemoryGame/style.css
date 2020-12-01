@@ -20,7 +20,6 @@ div#picture-holders{
 div.punten{
     border: 1px black solid;
     text-align: center;
-    width: 200px;
     padding: 20px;
     background-color: white;
 }
@@ -35,7 +34,6 @@ div#spelers{
 
 div.beurt-speler{
     text-align: center;
-    width: 300px;
     padding: 20px;
     border: 1px black solid;
     background-color: white;
