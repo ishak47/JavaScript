@@ -1,34 +1,52 @@
 html{
+    font-family: Arial , sans-serif;
+    font-size: 24px;
     background: green;
 }
 
-div#container{
-    width: 1000px;
-    margin: 0 auto;
+body{
+    height: 100vh;
+    margin: auto;
 }
 
-*{
-    /* border: 1px black solid; */
+div#picture-holders{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
-div#score{
-    width: 1010px;
-    height: 100px;
-    background-color: pink;
+div.punten{
+    border: 1px black solid;
+    text-align: center;
+    width: 200px;
+    padding: 20px;
+    background-color: white;
+}
+
+div#spelers{
+    top: 20px;
+    display: flex;
+    position: absolute;
+    width: 90%;
+    justify-content: space-between;
+}
+
+div.beurt-speler{
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+    border: 1px black solid;
+    background-color: white;
 }
 
 div#grid{
+    background-color: blue;
     display: grid;
+    grid-gap: 15px;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(3,220px);
-    width: 900px;
-    grid-gap: 20px;
-}
-
-div.pictureholder{
-    margin: auto auto;
-    width: 150px;
-    height: 150px;
-    background-color: blue ;
-    border: 1px black solid;
+    grid-template-rows: repeat(3, 220px);
+    width: 1000px;
+    height: 500px;
 }
