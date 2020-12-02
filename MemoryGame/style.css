@@ -40,11 +40,23 @@ div.beurt-speler{
 }
 
 div#grid{
-    background-color: blue;
     display: grid;
-    grid-gap: 15px;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(3, 220px);
+    grid-template-rows: repeat(3, 170px);
+    grid-gap: 15px;
     width: 1000px;
     height: 500px;
+}
+div.picture{
+    border: 2px black solid;
+    background: url("img/logo1.jpg");
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+}
+
+
+div.picture.background{
+    width: 150px;
+    height: 150px;
 }
