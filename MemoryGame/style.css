@@ -5,6 +5,7 @@ html{
 }
 
 body{
+    color: white;
     height: 100vh;
     margin: auto;
 }
@@ -21,7 +22,7 @@ div.punten{
     border: 1px black solid;
     text-align: center;
     padding: 20px;
-    background-color: white;
+    background-color: rgb(1,47,97);
 }
 
 div#spelers{
@@ -36,7 +37,7 @@ div.beurt-speler{
     text-align: center;
     padding: 20px;
     border: 1px black solid;
-    background-color: white;
+    background-color: rgb(1,47,97);
 }
 
 div#grid{
@@ -59,4 +60,9 @@ div.picture{
 div.picture.background{
     width: 150px;
     height: 150px;
+}
+
+div.overlay {
+    height: 150px;
+    width: 150px;
 }

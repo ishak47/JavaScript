@@ -26,7 +26,6 @@ for (var i =1 ; i <=18 ; i++){
 }
 
 //score van speler
-
 function toonScore(){
     document.getElementById("speler1").innerHTML = speler1;
     document.getElementById("puntenSpeler1").innerHTML = puntenSpeler1;
@@ -37,4 +36,17 @@ function toonScore(){
 //speler aan de beurt
 function spelerBeurt(){
     document.getElementById("beurt").innerHTML = spelers[spelerAanZet];
+}
+
+//function maken die een id geeft aan de foto's
+//function maken die overlay weg haald
+//function maken die plaatje toont.
+
+var moveOverlay = function(){
+    var overlays = document.getElementsByClassName("overlay");
+    for (var i = 0; i < overlays; i++) {
+        if (plaatjesArray[i] == null){
+            overlays[i].style.background= 'url(/"img/logo1.jpg")';
+        }
+    }
 }
