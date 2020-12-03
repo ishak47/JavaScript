@@ -42,11 +42,3 @@ function spelerBeurt(){
 //function maken die overlay weg haald
 //function maken die plaatje toont.
 
-var moveOverlay = function(){
-    var overlays = document.getElementsByClassName("overlay");
-    for (var i = 0; i < overlays; i++) {
-        if (plaatjesArray[i] == null){
-            overlays[i].style.background= 'url(/"img/logo1.jpg")';
-        }
-    }
-}

@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7841df55-34e3-435d-96ed-a4609fd69bdc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/MemoryGame/JavaScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/MemoryGame/JavaScript.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kgaS1tFNSVW12QNGTy9zlmNi1P" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/H05" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ishak\PhpstormProjects\untitled1\H04\img" />
+      <recent name="C:\Users\ishak\PhpstormProjects\untitled1\H04" />
+      <recent name="C:\Users\ishak\PhpstormProjects\untitled1\H04\crook\Monden" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ishak\PhpstormProjects\untitled1\H05" />
+      <recent name="C:\Users\ishak\PhpstormProjects\untitled1\H04" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7841df55-34e3-435d-96ed-a4609fd69bdc" name="Default Changelist" comment="" />
+      <created>1606124684914</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606124684914</updated>
+      <workItem from="1606124685993" duration="5000000" />
+      <workItem from="1606203534893" duration="9625000" />
+      <workItem from="1606216699844" duration="5516000" />
+      <workItem from="1606290973826" duration="8429000" />
+      <workItem from="1606377052052" duration="6864000" />
+      <workItem from="1606723324291" duration="1554000" />
+      <workItem from="1606737021091" duration="9584000" />
+      <workItem from="1606814067436" duration="8287000" />
+      <workItem from="1606895520637" duration="9966000" />
+      <workItem from="1606917399640" duration="317000" />
+      <workItem from="1606918888975" duration="1101000" />
+      <workItem from="1606983118235" duration="12380000" />
+    </task>
+    <task id="LOCAL-00001" summary="opdracht 1.1 en 1.2 af">
+      <created>1606127038030</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606127038030</updated>
+    </task>
+    <task id="LOCAL-00002" summary="h01 af">
+      <created>1606127981451</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606127981451</updated>
+    </task>
+    <task id="LOCAL-00003" summary="tekst veranderd">
+      <created>1606128068184</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606128068184</updated>
+    </task>
+    <task id="LOCAL-00004" summary="opdracht 1 klaar">
+      <created>1606205274949</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606205274949</updated>
+    </task>
+    <task id="LOCAL-00005" summary="h02 klaar">
+      <created>1606208024996</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606208024996</updated>
+    </task>
+    <task id="LOCAL-00006" summary="bezig met h03">
+      <created>1606215840855</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606215840855</updated>
+    </task>
+    <task id="LOCAL-00007" summary="klaar met hoofdstuk 3">
+      <created>1606221258468</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1606221258468</updated>
+    </task>
+    <task id="LOCAL-00008" summary="plaatjes kleiner gemaakt">
+      <created>1606221433101</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1606221433101</updated>
+    </task>
+    <task id="LOCAL-00009" summary="4.1 klaar">
+      <created>1606292789259</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1606292789259</updated>
+    </task>
+    <task id="LOCAL-00010" summary="4.2 klaar">
+      <created>1606294908016</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1606294908016</updated>
+    </task>
+    <task id="LOCAL-00011" summary="h04 klaar">
+      <created>1606302395476</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1606302395476</updated>
+    </task>
+    <task id="LOCAL-00012" summary="h04 klaar">
+      <created>1606302462067</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1606302462067</updated>
+    </task>
+    <task id="LOCAL-00013" summary="hartjes willen niet in beeld komen">
+      <created>1606382224599</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1606382224599</updated>
+    </task>
+    <task id="LOCAL-00014" summary="hij werkt">
+      <created>1606383507867</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1606383507867</updated>
+    </task>
+    <task id="LOCAL-00015" summary="bezig met memory game">
+      <created>1606741153514</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1606741153514</updated>
+    </task>
+    <task id="LOCAL-00016" summary="div score gelijk aan pictureholders">
+      <created>1606743201716</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1606743201716</updated>
+    </task>
+    <task id="LOCAL-00017" summary="opnieuw begonnen. bezig met opmaak">
+      <created>1606824691035</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1606824691035</updated>
+    </task>
+    <task id="LOCAL-00018" summary="width bij punten en beurt-spelers">
+      <created>1606825131537</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1606825131537</updated>
+    </task>
+    <task id="LOCAL-00019" summary="ajax logo is geplaatst 18 keer">
+      <created>1606902458743</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1606902458743</updated>
+    </task>
+    <task id="LOCAL-00020" summary="aan de beurt is gerandomized">
+      <created>1606906427439</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1606906427439</updated>
+    </task>
+    <task id="LOCAL-00021" summary="bezig met verdwijnen overlay">
+      <created>1606992369539</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1606992369539</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="opdracht 1.1 en 1.2 af" />
+    <MESSAGE value="h01 af" />
+    <MESSAGE value="tekst veranderd" />
+    <MESSAGE value="opdracht 1 klaar" />
+    <MESSAGE value="h02 klaar" />
+    <MESSAGE value="bezig met h03" />
+    <MESSAGE value="klaar met hoofdstuk 3" />
+    <MESSAGE value="plaatjes kleiner gemaakt" />
+    <MESSAGE value="4.1 klaar" />
+    <MESSAGE value="4.2 klaar" />
+    <MESSAGE value="h04 klaar" />
+    <MESSAGE value="hartjes willen niet in beeld komen" />
+    <MESSAGE value="hij werkt" />
+    <MESSAGE value="bezig met memory game" />
+    <MESSAGE value="div score gelijk aan pictureholders" />
+    <MESSAGE value="opnieuw begonnen. bezig met opmaak" />
+    <MESSAGE value="width bij punten en beurt-spelers" />
+    <MESSAGE value="ajax logo is geplaatst 18 keer" />
+    <MESSAGE value="aan de beurt is gerandomized" />
+    <MESSAGE value="bezig met verdwijnen overlay" />
+    <option name="LAST_COMMIT_MESSAGE" value="bezig met verdwijnen overlay" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1110" y="195" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606298845634">
+      <screen x="-1680" y="-57" width="1680" height="1010" />
+    </state>
+    <state x="-1110" y="195" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/-1680.-57.1680.1010@-1680.-57.1680.1010" timestamp="1606298845634" />
+    <state x="-1060" y="189" key="FileChooserDialogImpl" timestamp="1606125818466">
+      <screen x="-1680" y="-57" width="1680" height="1010" />
+    </state>
+    <state x="-1060" y="189" key="FileChooserDialogImpl/0.0.1536.824/-1680.-57.1680.1010@-1680.-57.1680.1010" timestamp="1606125818466" />
+    <state x="-962" y="346" key="Github.ShareDialog" timestamp="1606125827689">
+      <screen x="-1680" y="-57" width="1680" height="1010" />
+    </state>
+    <state x="-962" y="346" key="Github.ShareDialog/0.0.1536.824/-1680.-57.1680.1010@-1680.-57.1680.1010" timestamp="1606125827689" />
+    <state x="-1024" y="153" key="Github.UntrackedFilesDialog" timestamp="1606125832864">
+      <screen x="-1680" y="-57" width="1680" height="1010" />
+    </state>
+    <state x="-1024" y="153" key="Github.UntrackedFilesDialog/0.0.1536.824/-1680.-57.1680.1010@-1680.-57.1680.1010" timestamp="1606125832864" />
+    <state x="-1248" y="181" key="Vcs.Push.Dialog.v2" timestamp="1606992371308">
+      <screen x="-1680" y="-57" width="1680" height="1010" />
+    </state>
+    <state x="-1248" y="181" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1680.-57.1680.1010@-1680.-57.1680.1010" timestamp="1606992371308" />
+    <state x="-1177" y="160" width="672" height="678" key="search.everywhere.popup" timestamp="1606904102721">
+      <screen x="-1680" y="-57" width="1680" height="1010" />
+    </state>
+    <state x="-1177" y="160" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1680.-57.1680.1010@-1680.-57.1680.1010" timestamp="1606904102721" />
+  </component>
+</project>
