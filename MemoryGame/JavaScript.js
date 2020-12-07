@@ -9,6 +9,7 @@ var puntenSpeler1 = 0;
 var puntenSpeler2 = 0;
 var spelers = ["Amir", "Ishak"];
 
+var openKaarten = [null, null];
 var spelerAanZet = Math.floor(Math.random() * 2);
 
 //aangeroepte methodes
@@ -25,6 +26,7 @@ var opdrachtGeklikteKaart = function (){
         }
     }
 };
+
 
 //methode overlay weg laten halen
 var reageerOpKlik = function (){
@@ -48,9 +50,22 @@ for (var i =1 ; i <=18 ; i++){
     var blok = document.createElement("div");
     blok.className = "overlay";
     blok.id = i;
+    blok.addEventListener('click', opdrachtGeklikteKaart);
     blok.style.background = 'url("img/overlay.jpg")';
     document.getElementById("grid").appendChild(blok);
 }
+
+//overlay verdwijnen en plaatjes tonen
+function draaiKaart(id) {
+    var blok = document.getElementById(id);
+    blok.style.background = 'url("IMG/logo' + plaatjesArray[id - 1] + '.jpg")';
+    if (zetten === 1) {
+        openKaarten[0] = plaatjesArray[id - 1];
+    } else {
+        openKaarten[1] = plaatjesArray[id - 1];
+    }
+}
+
 
 //score van speler
 function toonScore(){
@@ -65,7 +80,5 @@ function spelerBeurt(){
     document.getElementById("beurt").innerHTML = spelers[spelerAanZet];
 }
 
-//function maken die een id geeft aan de foto's
-//function maken die overlay weg haald
-//function maken die plaatje toont.
+
 
