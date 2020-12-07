@@ -48,21 +48,13 @@ div#grid{
     width: 1000px;
 }
 
-div.picture{
-    border: 2px black solid;
-    background: url("img/logo1.jpg");
-    width: 150px;
-    height: 150px;
-    background-color: blue;
-}
-
-
 div.picture.background{
     width: 150px;
     height: 150px;
 }
 
 div.overlay {
+    background: url("img/logo1.jpg");
     height: 150px;
     width: 150px;
 }

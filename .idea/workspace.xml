@@ -20,7 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7841df55-34e3-435d-96ed-a4609fd69bdc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MemoryGame/JavaScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/MemoryGame/JavaScript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MemoryGame/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/MemoryGame/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +89,9 @@
       <workItem from="1606895520637" duration="9966000" />
       <workItem from="1606917399640" duration="317000" />
       <workItem from="1606918888975" duration="1101000" />
-      <workItem from="1606983118235" duration="12380000" />
+      <workItem from="1606983118235" duration="12431000" />
+      <workItem from="1607328603273" duration="1892000" />
+      <workItem from="1607332412966" duration="3790000" />
     </task>
     <task id="LOCAL-00001" summary="opdracht 1.1 en 1.2 af">
       <created>1606127038030</created>
@@ -236,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606992369539</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="iets fout gegaan. rest verwijderd">
+      <created>1607000419696</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1607000419696</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,7 +286,8 @@
     <MESSAGE value="ajax logo is geplaatst 18 keer" />
     <MESSAGE value="aan de beurt is gerandomized" />
     <MESSAGE value="bezig met verdwijnen overlay" />
-    <option name="LAST_COMMIT_MESSAGE" value="bezig met verdwijnen overlay" />
+    <MESSAGE value="iets fout gegaan. rest verwijderd" />
+    <option name="LAST_COMMIT_MESSAGE" value="iets fout gegaan. rest verwijderd" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1110" y="195" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606298845634">
@@ -294,13 +306,13 @@
       <screen x="-1680" y="-57" width="1680" height="1010" />
     </state>
     <state x="-1024" y="153" key="Github.UntrackedFilesDialog/0.0.1536.824/-1680.-57.1680.1010@-1680.-57.1680.1010" timestamp="1606125832864" />
-    <state x="-1248" y="181" key="Vcs.Push.Dialog.v2" timestamp="1606992371308">
+    <state x="-1248" y="181" key="Vcs.Push.Dialog.v2" timestamp="1607000423783">
       <screen x="-1680" y="-57" width="1680" height="1010" />
     </state>
-    <state x="-1248" y="181" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1680.-57.1680.1010@-1680.-57.1680.1010" timestamp="1606992371308" />
-    <state x="-1177" y="160" width="672" height="678" key="search.everywhere.popup" timestamp="1606904102721">
+    <state x="-1248" y="181" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1680.-57.1680.1010@-1680.-57.1680.1010" timestamp="1607000423783" />
+    <state x="-1177" y="160" width="672" height="678" key="search.everywhere.popup" timestamp="1607329786946">
       <screen x="-1680" y="-57" width="1680" height="1010" />
     </state>
-    <state x="-1177" y="160" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1680.-57.1680.1010@-1680.-57.1680.1010" timestamp="1606904102721" />
+    <state x="-1177" y="160" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1680.-57.1680.1010@-1680.-57.1680.1010" timestamp="1607329786946" />
   </component>
 </project>

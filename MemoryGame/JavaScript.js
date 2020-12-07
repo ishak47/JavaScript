@@ -15,6 +15,33 @@ var spelerAanZet = Math.floor(Math.random() * 2);
 toonScore();
 spelerBeurt();
 
+var opdrachtGeklikteKaart = function (){
+    if (this.id !== laatstGeklikt && volgendeZet){
+        zetten++;
+        laatstGeklikt = this.id;
+        draaiKaart(this.id);
+        if (zetten === 2){
+
+        }
+    }
+};
+
+//methode overlay weg laten halen
+var reageerOpKlik = function (){
+    var alleOverlays = document.getElementsByClassName("overlay");
+    for (var i = 0; i < alleOverlays; i++) {
+        if (plaatjesArray[i] != null){
+            alleOverlays[i].style.background = 'url ("\img/overlay.jpg\")';
+        }
+    }
+    button.style.display = 'none';
+    zetten = 0;
+    laatstGeklikt = null;
+    volgendeZet = true;
+    veranderSpeler();
+    toonPlayer();
+};
+
 //plaatjes tonen overlay
 var plaatjesArray = [1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9];
 for (var i =1 ; i <=18 ; i++){
