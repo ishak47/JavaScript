@@ -46,6 +46,7 @@ var reageerOpKlik = function (){
 
 //plaatjes tonen overlay
 var plaatjesArray = [1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9];
+randomize(plaatjesArray);
 for (var i =1 ; i <=18 ; i++){
     var blok = document.createElement("div");
     blok.className = "overlay";
@@ -80,5 +81,11 @@ function spelerBeurt(){
     document.getElementById("beurt").innerHTML = spelers[spelerAanZet];
 }
 
-
-
+function randomize(plaatjesArray){
+    for (var i = 0; i < plaatjesArray.length; i++) {
+        var random = Math.floor(Math.random() * plaatjesArray.length);
+        var template = plaatjesArray[i];
+        plaatjesArray[i] = plaatjesArray[random];
+        plaatjesArray[random] = template;
+    }
+}

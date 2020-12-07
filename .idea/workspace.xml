@@ -90,7 +90,7 @@
       <workItem from="1606918888975" duration="1101000" />
       <workItem from="1606983118235" duration="12431000" />
       <workItem from="1607328603273" duration="1892000" />
-      <workItem from="1607332412966" duration="7209000" />
+      <workItem from="1607332412966" duration="8318000" />
     </task>
     <task id="LOCAL-00001" summary="opdracht 1.1 en 1.2 af">
       <created>1606127038030</created>
@@ -253,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607342342748</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="wehghalen overlay en plaatjes tonen gelukt">
+      <created>1607345057075</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1607345057075</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,6 +301,7 @@
     <MESSAGE value="bezig met verdwijnen overlay" />
     <MESSAGE value="iets fout gegaan. rest verwijderd" />
     <MESSAGE value="overlay weghalen" />
-    <option name="LAST_COMMIT_MESSAGE" value="overlay weghalen" />
+    <MESSAGE value="wehghalen overlay en plaatjes tonen gelukt" />
+    <option name="LAST_COMMIT_MESSAGE" value="wehghalen overlay en plaatjes tonen gelukt" />
   </component>
 </project>
