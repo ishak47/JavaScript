@@ -8,6 +8,8 @@ var speler2 = "Ishak: ";
 var puntenSpeler1 = 0;
 var puntenSpeler2 = 0;
 var spelers = ["Amir", "Ishak"];
+var winnaarSpeler1 = "amir";
+var winnaarSpeler2 = "ishak";
 
 var openKaarten = [null, null];
 var spelerAanZet = Math.floor(Math.random() * 2);
@@ -25,6 +27,7 @@ var GeklikteKaart = function (){
         draaiKaart(this.id);
         if (zetten === 2){
             overeenkomst();
+            reseten();
         }
     }
 };
@@ -34,7 +37,7 @@ var reageerOpKlik = function (){
     var alleOverlays = document.getElementsByClassName("overlay");
     for (var i = 0; i < alleOverlays; i++) {
         if (plaatjesArray[i] != null){
-            alleOverlays[i].style.background = 'url ("\img/overlay.jpg\")';
+            alleOverlays[i].style.background = 'url (\"img/overlay.jpg\")';
         }
     }
     button.style.display = 'none';
@@ -103,10 +106,11 @@ function overeenkomst(){
         toonScore();
         veranderSpeler();
 
-        var overlays = document.getElementsByClassName("overlay");
+        var alleOverlays = document.getElementsByClassName("overlay");
         for (var i = 0; i < 18; i++) {
             if (plaatjesArray[i] === winnen){
-                overlays[i].removeEventListener("click", GeklikteKaart);
+                alleOverlays[i].removeEventListener("click", GeklikteKaart);
+                console.log("verwijderde event" + i);
                 plaatjesArray[i] = null;
             }
         }
@@ -122,7 +126,27 @@ function veranderSpeler(){
     }
 }
 
+//reseten game
 function reseten(){
     volgendeZet = false;
     var button = document.getElementById("button")
+    if (puntenSpeler1 + puntenSpeler2 <9){
+        button.style.display = "block";
+    }else{
+        winnaar();
+    }
+    button.addEventListener('click', reageerOpKlik);
+    openKaarten = [null, null];
+}
+
+//winaar
+function winnaar(){
+    if (puntenSpeler1 > puntenSpeler2){
+        winner = winnaarSpeler1 ;
+    }else{
+         winner = winnaarSpeler2 ;
+    }
+    var button = document.getElementById("button");
+    button.innerHTML = winner + " wint ";
+    button.style.display = 'block';
 }

@@ -53,8 +53,17 @@ div.picture.background{
     height: 150px;
 }
 
+button#button {
+    position: absolute;
+    top: 750px;
+    border: 1px black solid;
+    background: rgb(1,47,97);
+    color: white;
+    font-size: 2em;
+    padding: 20px;
+}
+
 div.overlay {
-    background: url("img/logo1.jpg");
     height: 150px;
     width: 150px;
 }
