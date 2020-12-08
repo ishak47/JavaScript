@@ -16,17 +16,18 @@ var spelerAanZet = Math.floor(Math.random() * 2);
 toonScore();
 spelerBeurt();
 
-var opdrachtGeklikteKaart = function (){
+
+//de gekozen kaart
+var GeklikteKaart = function (){
     if (this.id !== laatstGeklikt && volgendeZet){
         zetten++;
         laatstGeklikt = this.id;
         draaiKaart(this.id);
         if (zetten === 2){
-
+            overeenkomst();
         }
     }
 };
-
 
 //methode overlay weg laten halen
 var reageerOpKlik = function (){
@@ -41,7 +42,7 @@ var reageerOpKlik = function (){
     laatstGeklikt = null;
     volgendeZet = true;
     veranderSpeler();
-    toonPlayer();
+    spelerBeurt();
 };
 
 //plaatjes tonen overlay
@@ -51,7 +52,7 @@ for (var i =1 ; i <=18 ; i++){
     var blok = document.createElement("div");
     blok.className = "overlay";
     blok.id = i;
-    blok.addEventListener('click', opdrachtGeklikteKaart);
+    blok.addEventListener('click', GeklikteKaart);
     blok.style.background = 'url("img/overlay.jpg")';
     document.getElementById("grid").appendChild(blok);
 }
@@ -67,7 +68,6 @@ function draaiKaart(id) {
     }
 }
 
-
 //score van speler
 function toonScore(){
     document.getElementById("speler1").innerHTML = speler1;
@@ -81,6 +81,7 @@ function spelerBeurt(){
     document.getElementById("beurt").innerHTML = spelers[spelerAanZet];
 }
 
+//kaartjes randomizen
 function randomize(plaatjesArray){
     for (var i = 0; i < plaatjesArray.length; i++) {
         var random = Math.floor(Math.random() * plaatjesArray.length);
@@ -88,4 +89,40 @@ function randomize(plaatjesArray){
         plaatjesArray[i] = plaatjesArray[random];
         plaatjesArray[random] = template;
     }
+}
+
+//overeenkomst tussen de 2 plaatjes
+function overeenkomst(){
+    if (openKaarten[0] === openKaarten[1]){
+        var winnen = openKaarten[0];
+        if (spelerAanZet === 0){
+            puntenSpeler1++;
+        }else{
+            puntenSpeler2++;
+        }
+        toonScore();
+        veranderSpeler();
+
+        var overlays = document.getElementsByClassName("overlay");
+        for (var i = 0; i < 18; i++) {
+            if (plaatjesArray[i] === winnen){
+                overlays[i].removeEventListener("click", GeklikteKaart);
+                plaatjesArray[i] = null;
+            }
+        }
+    }
+}
+
+//beurt speler veranderen
+function veranderSpeler(){
+    if (spelerAanZet === 0){
+        spelerAanZet = 1
+    }else{
+        spelerAanZet = 0
+    }
+}
+
+function reseten(){
+    volgendeZet = false;
+    var button = document.getElementById("button")
 }
