@@ -98,6 +98,7 @@ function randomize(plaatjesArray){
 function overeenkomst(){
     if (openKaarten[0] === openKaarten[1]){
         var winnen = openKaarten[0];
+        console.log("Match ID" + winnen)
         if (spelerAanZet === 0){
             puntenSpeler1++;
         }else{
@@ -139,7 +140,7 @@ function reseten(){
     openKaarten = [null, null];
 }
 
-//winaar
+//winnaar
 function winnaar(){
     if (puntenSpeler1 > puntenSpeler2){
         winner = winnaarSpeler1 ;

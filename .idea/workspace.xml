@@ -19,12 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7841df55-34e3-435d-96ed-a4609fd69bdc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MemoryGame/JavaScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/MemoryGame/JavaScript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MemoryGame/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/MemoryGame/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MemoryGame/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/MemoryGame/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="7841df55-34e3-435d-96ed-a4609fd69bdc" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,7 +88,7 @@
       <workItem from="1606983118235" duration="12431000" />
       <workItem from="1607328603273" duration="1892000" />
       <workItem from="1607332412966" duration="8530000" />
-      <workItem from="1607414154803" duration="14643000" />
+      <workItem from="1607414154803" duration="15017000" />
     </task>
     <task id="LOCAL-00001" summary="opdracht 1.1 en 1.2 af">
       <created>1606127038030</created>
@@ -277,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607424923852</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="game zo goed als af alleen overlay komt niet terug">
+      <created>1607431603029</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1607431603029</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,7 +298,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="opdracht 1.1 en 1.2 af" />
     <MESSAGE value="h01 af" />
     <MESSAGE value="tekst veranderd" />
     <MESSAGE value="opdracht 1 klaar" />
@@ -321,6 +322,7 @@
     <MESSAGE value="wehghalen overlay en plaatjes tonen gelukt" />
     <MESSAGE value="plaatjes worden gerandomized" />
     <MESSAGE value="beizg met memorygame maar werkt niet zo goed met het terug halen van overlay" />
-    <option name="LAST_COMMIT_MESSAGE" value="beizg met memorygame maar werkt niet zo goed met het terug halen van overlay" />
+    <MESSAGE value="game zo goed als af alleen overlay komt niet terug" />
+    <option name="LAST_COMMIT_MESSAGE" value="game zo goed als af alleen overlay komt niet terug" />
   </component>
 </project>
