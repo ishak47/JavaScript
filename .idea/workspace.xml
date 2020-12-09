@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7841df55-34e3-435d-96ed-a4609fd69bdc" name="Default Changelist" comment="" />
+    <list default="true" id="7841df55-34e3-435d-96ed-a4609fd69bdc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MemoryGame/JavaScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/MemoryGame/JavaScript.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,7 +91,8 @@
       <workItem from="1606983118235" duration="12431000" />
       <workItem from="1607328603273" duration="1892000" />
       <workItem from="1607332412966" duration="8530000" />
-      <workItem from="1607414154803" duration="15017000" />
+      <workItem from="1607414154803" duration="15549000" />
+      <workItem from="1607500324226" duration="1078000" />
     </task>
     <task id="LOCAL-00001" summary="opdracht 1.1 en 1.2 af">
       <created>1606127038030</created>
@@ -279,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607431603029</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="game zo goed als af alleen overlay komt niet terug">
+      <created>1607432063202</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1607432063202</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -35,9 +35,9 @@ var GeklikteKaart = function (){
 //methode overlay weg laten halen
 var reageerOpKlik = function (){
     var alleOverlays = document.getElementsByClassName("overlay");
-    for (var i = 0; i < alleOverlays; i++) {
+    for (var i = 0; i < alleOverlays.length; i++) {
         if (plaatjesArray[i] != null){
-            alleOverlays[i].style.background = 'url (\"img/overlay.jpg\")';
+            alleOverlays[i].style.background = 'url(\"img/overlay.jpg\")';
         }
     }
     button.style.display = 'none';
@@ -104,8 +104,8 @@ function overeenkomst(){
         }else{
             puntenSpeler2++;
         }
-        toonScore();
         veranderSpeler();
+        toonScore();
 
         var alleOverlays = document.getElementsByClassName("overlay");
         for (var i = 0; i < 18; i++) {
